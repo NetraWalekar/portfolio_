@@ -1,0 +1,8 @@
+@keyframes swing-slow {
+  0%, 100% { transform: rotate(-8deg); }
+  50% { transform: rotate(8deg); }
+}
+.swing-slow {
+  animation: swing-slow 3s ease-in-out infinite;
+  transform-origin:initial;
+}
