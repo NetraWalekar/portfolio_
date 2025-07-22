@@ -1,8 +1,77 @@
-@keyframes swing-slow {
-  0%, 100% { transform: rotate(-8deg); }
-  50% { transform: rotate(8deg); }
+.hero-container{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content:start;
+  padding: 60px;
+  text-align: center;
+  padding-left: 25%;
+  margin-top: 50px;
 }
-.swing-slow {
-  animation: swing-slow 3s ease-in-out infinite;
-  transform-origin:initial;
+
+
+.hero-container p{
+  text-align: left;
+  color: rgb(203, 198, 198);
+  font-weight: 400;
+}
+
+.btn_container{
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+}
+
+.hero-btn{
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  display: flex;
+ padding: 10px;
+  align-items: center;
+  margin: 10px;
+  margin-left: 0;
+  cursor: pointer;
+  border-bottom: 3px  solid transparent;
+  background-image: linear-gradient(#fff,white), linear-gradient(to right,transparent,#ff00cc,#3333ff);
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
+
+.hero-btn img{
+  height: 20px;
+  margin: 8px;
+}
+
+.hero-btn:nth-child(1){
+  border-top: none;
+}
+
+.hero-btn:nth-child(2){
+  background-color: black;
+  color: white;
+  border-top: 1px solid gray;
+   border-bottom: 3px  solid transparent;
+  background-image: linear-gradient(black,black), linear-gradient(to right,transparent,#ff00cc,#3333ff);
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
+
+.hero-btn:nth-child(2) img{
+  background-color: white;
+}
+
+.social-icon{
+  display: flex;
+}
+
+.social-icon img{
+  height: 35px;
+  margin: 10px;
+  border-radius: 50px;
+  z-index: 1;
+  border: 1px solid white;
+  background-color: white;
 }
