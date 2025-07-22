@@ -2,7 +2,7 @@ import Hero from "./component/Hero/Hero";
 
 export default function App(){
   return(
-    <div>
+    <div className="app_container">
         <Hero></Hero>
     </div>
   )
