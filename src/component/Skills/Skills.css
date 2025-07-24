@@ -1,0 +1,21 @@
+.container{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content:start;
+  padding: 60px;
+  text-align: center;
+  padding-left: 25%;
+  
+}
+
+.skill-icon img{
+    height: 50px;
+    border-radius: 25px;
+}
+
+.skill-icon{
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
