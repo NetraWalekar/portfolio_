@@ -1,32 +1,42 @@
-.container{
-   background-color: black;
+.container {
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 40px;
   gap: 30px;
   margin: auto;
-  padding-top: 10px;
+  padding-top: 100px;
+  margin-top: 40px;
 }
 
-.skill-icon img{
-  height: 100px;
-  width: 100x;
+.skill-icon img {
+  height: 170px;
+  width: 170x;
   object-fit: contain;
   background: black;
   box-shadow: none;
 }
 
-.skill-icon{
-    display: flex;
+.skill-icon {
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 90px;
+  gap: 140px;
   background-color: black;
 }
 
 
-.container h1{
-  font-size: 35px;
+.container h1 {
+  font-size: 45px;
+  background: hsla(197, 100%, 63%, 1);
+  background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  margin-bottom: 80px;
 }

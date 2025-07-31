@@ -10,7 +10,7 @@ export default function Hero() {
            <div className='hero-container'>
             <div>
                 <div style={{fontSize:'50px',textAlign:'left',paddingTop:'70px',lineHeight:0.2}}>Hey there,</div>
-                <div style={{fontSize: '90px',textAlign:'left'}}>I'm <span style={{color:'#6c63ff',fontWeight:'bold'}}>Netra</span></div>
+                <div style={{fontSize: '90px',textAlign:'left'}}>I'm <span className='name'>Netra</span></div>
                 <p>A curious and creative developer, always learning, building, <br /> and solving real-world problems with clean code and good vibes. 🚀</p>
                 <div className='btn_container'>
                     <a href="mailto:netrawalekar6@gmail.com"><button className='hero-btn'><img src={mail} alt="" /><span>Get in touch</span></button></a>
@@ -18,7 +18,7 @@ export default function Hero() {
                 </div>
                 <div className='social-icon'>
                     <a href="https://github.com/NetraWalekar"><img src={github} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/netra-walekar-45283a2a7"><img src={linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/netra-walekar-45283a2a7"><img src={linkedin} alt="" height={100}/></a>
                   
                 </div>
             </div>
